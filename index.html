@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHADOW MOUSE</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SPLASH -->
+
+<div id="splash">
+
+    <video id="introVideo" class="intro-video">
+        <source src="assets/intro.mp4" type="video/mp4">
+    </video>
+
+    
+        <h1>SHADOW MOUSE</h1>
+
+        <p>Loading...</p>
+
+    </div>
+
+</div>
+
+<!-- SIDEBAR -->
+
+<div id="sidebar">
+
+    <div class="sidebar-header">
+
+        <h2>Menu</h2>
+
+    </div>
+
+    <a href="#" onclick="openDiscord()">
+        Discord
+    </a>
+
+    <a href="#" onclick="openInstagram()">
+        Instagram
+    </a>
+
+    <a href="#" onclick="openTelegram()">
+        Telegram
+    </a>
+
+    <a href="#" onclick="openWebsite()">
+        Site Web
+    </a>
+
+</div>
+
+<div id="overlay"></div>
+
+<!-- APP -->
+
+<div id="app">
+
+    <header>
+
+        <button id="menuBtn">
+            ☰
+        </button>
+
+        <h1>
+            SHADOW MOUSE
+        </h1>
+
+    </header>
+
+    <div class="profile-card">
+
+        <img
+        src="assets/profile.jpg"
+        class="profile-image">
+
+        <h2>
+            ᴍʀܔ𝘽𝙄𝙂 𝙈𝙊𝙐𝙎𝙀ᴮᴼˢˢ꧂
+        </h2>
+
+    </div>
+
+    <div class="form-box">
+
+        <label>
+            Cible Mouse
+        </label>
+
+        <input
+        type="text"
+        id="phone"
+        placeholder="+243xxxxxxxxx">
+
+        <label>
+            Scripts Mouses
+        </label>
+
+        <select id="template">
+
+            <option>
+                SCRIPT MOUSE 01
+            </option>
+
+            <option>
+                SCRIPT MOUSE 02
+            </option>
+
+            <option>
+                SCRIPT MOUSE 03
+            </option>
+
+            <option>
+                SCRIPT MOUSE 04
+            </option>
+
+            <option>
+                SCRIPT MOUSE 05
+            </option>
+
+            <option>
+                SCRIPT MOUSE 06
+            </option>
+
+            <option>
+                SCRIPT MOUSE 07
+            </option>
+
+            <option>
+                SCRIPT MOUSE 08
+            </option>
+
+        </select>
+
+        <label>
+         Script réel 
+        </label>
+
+        <textarea
+        id="preview"
+        readonly></textarea>
+
+        <button id="sendBtn">
+
+            SEND MOUSE
+
+        </button>
+
+    </div>
+
+    <footer>
+
+        DEV :
+        ᴍʀܔ𝘽𝙄𝙂 𝙈𝙊𝙐𝙎𝙀ᴮᴼˢˢ꧂
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
